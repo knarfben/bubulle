@@ -1,0 +1,19 @@
+<!-- Simplifié pour un rendu lisible à ~13pt de haut : 5 bandes (au lieu de 13), canton
+     uni sans étoiles individuelles (grille de points), cf. ticket 06. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 20">
+  <rect width="30" height="20" fill="#B22234"/>
+  <rect y="4" width="30" height="4" fill="#FFFFFF"/>
+  <rect y="12" width="30" height="4" fill="#FFFFFF"/>
+  <rect width="14" height="12" fill="#3C3B6E"/>
+  <g fill="#FFFFFF">
+    <circle cx="2.5" cy="2" r="0.6"/>
+    <circle cx="6.5" cy="2" r="0.6"/>
+    <circle cx="10.5" cy="2" r="0.6"/>
+    <circle cx="4.5" cy="5" r="0.6"/>
+    <circle cx="8.5" cy="5" r="0.6"/>
+    <circle cx="12.5" cy="5" r="0.6"/>
+    <circle cx="2.5" cy="8" r="0.6"/>
+    <circle cx="6.5" cy="8" r="0.6"/>
+    <circle cx="10.5" cy="8" r="0.6"/>
+  </g>
+</svg>

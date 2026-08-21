@@ -1,0 +1,7 @@
+<!-- Tricolore seul, sans emblème central ni takbir en bordure — tranché au charting
+     ("on ne dessine pas l'emblème iranien à la main"), cf. ticket 06. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 20">
+  <rect width="30" height="6.667" fill="#239F40"/>
+  <rect y="6.667" width="30" height="6.666" fill="#FFFFFF"/>
+  <rect y="13.333" width="30" height="6.667" fill="#DA0000"/>
+</svg>

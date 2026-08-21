@@ -1,0 +1,6 @@
+.build/
+*/.build/
+.DS_Store
+.scratch/bubulle/probes/17-caret-terminal/bubblewatch
+.scratch/bubulle/probes/17-caret-terminal/frappe
+.scratch/bubulle/probes/17-caret-terminal/wins-ghostty

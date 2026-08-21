@@ -1,0 +1,24 @@
+# écran AppKit (0.00,0.00 1728.00x1117.00)  CG (0.00,0.00 1728.00x1117.00)  visible (0.00,72.00 1728.00x1012.00)  scale 2.0
+# réserve basse (Dock) = visibleFrame.minY - frame.minY = 72.00 pt
+# source d'origine : com.apple.keylayout.French
+# N : réserve basse = 72.00 pt ; seuil prédit (référence visibleFrame) dy = 101.00
+N-bas-38	font=13.0	caretCG=(863.20,991.00 0.00x16.00)	hud=(821.00,984.00 84.00x77.00)	caps=(848.50,1011.50 29.00x22.00)	capsW=29.00	dxCenter=-0.20	dxLeft=-0.20	dyTop_caretBottom=4.50	dyBottom_caretTop=42.50	PLACEMENT_RATE=0.80,0.00
+N-bas-37	font=13.0	caretCG=(863.20,992.00 0.00x16.00)	hud=(821.00,985.00 84.00x77.00)	caps=(848.50,1012.50 29.00x22.00)	capsW=29.00	dxCenter=-0.20	dxLeft=-0.20	dyTop_caretBottom=4.50	dyBottom_caretTop=42.50	PLACEMENT_RATE=0.80,0.00
+N-bas-36	font=13.0	caretCG=(863.20,993.00 0.00x16.00)	hud=(821.00,986.00 84.00x77.00)	caps=(848.50,1013.50 29.00x22.00)	capsW=29.00	dxCenter=-0.20	dxLeft=-0.20	dyTop_caretBottom=4.50	dyBottom_caretTop=42.50	PLACEMENT_RATE=0.80,0.00
+N-bas-35	font=13.0	caretCG=(863.20,994.00 0.00x16.00)	hud=(821.00,987.00 84.00x77.00)	caps=(848.50,1014.50 29.00x22.00)	capsW=29.00	dxCenter=-0.20	dxLeft=-0.20	dyTop_caretBottom=4.50	dyBottom_caretTop=42.50	PLACEMENT_RATE=0.80,0.00
+N-bas-34	font=13.0	caretCG=(863.20,995.00 0.00x16.00)	hud=(821.00,988.00 84.00x77.00)	caps=(848.50,1015.50 29.00x22.00)	capsW=29.00	dxCenter=-0.20	dxLeft=-0.20	dyTop_caretBottom=4.50	dyBottom_caretTop=42.50	PLACEMENT_RATE=0.80,0.00
+N-bas-33	font=13.0	caretCG=(863.20,996.00 0.00x16.00)	hud=(821.00,989.00 84.00x77.00)	caps=(848.50,1016.50 29.00x22.00)	capsW=29.00	dxCenter=-0.20	dxLeft=-0.20	dyTop_caretBottom=4.50	dyBottom_caretTop=42.50	PLACEMENT_RATE=0.80,0.00
+N-bas-32	font=13.0	caretCG=(863.20,997.00 0.00x16.00)	hud=(821.00,990.00 84.00x77.00)	caps=(848.50,1017.50 29.00x22.00)	capsW=29.00	dxCenter=-0.20	dxLeft=-0.20	dyTop_caretBottom=4.50	dyBottom_caretTop=42.50	PLACEMENT_RATE=0.80,0.00
+N-bas-31	font=13.0	caretCG=(863.20,998.00 0.00x16.00)	hud=(821.00,991.00 84.00x77.00)	caps=(848.50,1018.50 29.00x22.00)	capsW=29.00	dxCenter=-0.20	dxLeft=-0.20	dyTop_caretBottom=4.50	dyBottom_caretTop=42.50	PLACEMENT_RATE=0.80,0.00
+N-bas-30	font=13.0	caretCG=(863.20,999.00 0.00x16.00)	hud=(821.00,992.00 84.00x77.00)	caps=(848.50,1019.50 29.00x22.00)	capsW=29.00	dxCenter=-0.20	dxLeft=-0.20	dyTop_caretBottom=4.50	dyBottom_caretTop=42.50	PLACEMENT_RATE=0.80,0.00
+N-bas-29	font=13.0	caretCG=(863.20,1000.00 0.00x16.00)	hud=(821.00,993.00 84.00x77.00)	caps=(848.50,1020.50 29.00x22.00)	capsW=29.00	dxCenter=-0.20	dxLeft=-0.20	dyTop_caretBottom=4.50	dyBottom_caretTop=42.50	PLACEMENT_RATE=0.80,0.00
+N-bas-28	font=13.0	caretCG=(863.20,1001.00 0.00x16.00)	hud=(821.00,994.00 84.00x77.00)	caps=(848.50,1021.50 29.00x22.00)	capsW=29.00	dxCenter=-0.20	dxLeft=-0.20	dyTop_caretBottom=4.50	dyBottom_caretTop=42.50	PLACEMENT_RATE=0.80,0.00
+N-bas-27	font=13.0	caretCG=(863.20,1002.00 0.00x16.00)	hud=(821.00,995.00 84.00x77.00)	caps=(848.50,1022.50 29.00x22.00)	capsW=29.00	dxCenter=-0.20	dxLeft=-0.20	dyTop_caretBottom=4.50	dyBottom_caretTop=42.50	PLACEMENT_RATE=0.80,0.00
+N-bas-26	font=13.0	caretCG=(863.20,1003.00 0.00x16.00)	hud=(821.00,949.00 84.00x77.00)	caps=(848.50,976.50 29.00x22.00)	capsW=29.00	dxCenter=-0.20	dxLeft=-0.20	dyTop_caretBottom=-42.50	dyBottom_caretTop=-4.50	PLACEMENT_RATE=0.80,0.00
+N-bas-25	font=13.0	caretCG=(863.20,1004.00 0.00x16.00)	hud=(821.00,950.00 84.00x77.00)	caps=(848.50,977.50 29.00x22.00)	capsW=29.00	dxCenter=-0.20	dxLeft=-0.20	dyTop_caretBottom=-42.50	dyBottom_caretTop=-4.50	PLACEMENT_RATE=0.80,0.00
+N-bas-24	font=13.0	caretCG=(863.20,1005.00 0.00x16.00)	hud=(821.00,951.00 84.00x77.00)	caps=(848.50,978.50 29.00x22.00)	capsW=29.00	dxCenter=-0.20	dxLeft=-0.20	dyTop_caretBottom=-42.50	dyBottom_caretTop=-4.50	PLACEMENT_RATE=0.80,0.00
+N-bas-23	font=13.0	caretCG=(863.20,1006.00 0.00x16.00)	hud=(821.00,952.00 84.00x77.00)	caps=(848.50,979.50 29.00x22.00)	capsW=29.00	dxCenter=-0.20	dxLeft=-0.20	dyTop_caretBottom=-42.50	dyBottom_caretTop=-4.50	PLACEMENT_RATE=0.80,0.00
+N-bas-22	font=13.0	caretCG=(863.20,1007.00 0.00x16.00)	hud=(821.00,953.00 84.00x77.00)	caps=(848.50,980.50 29.00x22.00)	capsW=29.00	dxCenter=-0.20	dxLeft=-0.20	dyTop_caretBottom=-42.50	dyBottom_caretTop=-4.50	PLACEMENT_RATE=0.80,0.00
+N-bas-21	font=13.0	caretCG=(863.20,1008.00 0.00x16.00)	hud=(821.00,954.00 84.00x77.00)	caps=(848.50,981.50 29.00x22.00)	capsW=29.00	dxCenter=-0.20	dxLeft=-0.20	dyTop_caretBottom=-42.50	dyBottom_caretTop=-4.50	PLACEMENT_RATE=0.80,0.00
+N-bas-20	font=13.0	caretCG=(863.20,1009.00 0.00x16.00)	hud=(821.00,955.00 84.00x77.00)	caps=(848.50,982.50 29.00x22.00)	capsW=29.00	dxCenter=-0.20	dxLeft=-0.20	dyTop_caretBottom=-42.50	dyBottom_caretTop=-4.50	PLACEMENT_RATE=0.80,0.00
+# source restaurée : com.apple.keylayout.French

@@ -1,0 +1,29 @@
+// Patch temporaire posé dans Sources/BubbleStateMachine.swift pour la mesure du ticket 17,
+// puis retiré. Journalise le rect du caret dès qu'il change, avec les compteurs d'actes en
+// regard — c'est la mise en regard des deux qui fait tout : elle dit si un déplacement a été
+// causé par l'utilisateur ou par l'app.
+//
+// À coller dans BubbleStateMachine, et appeler demarrerSonde() depuis init().
+
+private var sondeTimer: Timer?
+private var dernierRectSonde: NSRect = .init(x: -1, y: -1, width: -1, height: -1)
+private var dernierActesSonde: UInt32 = 0
+
+private func demarrerSonde() {
+    let t = Timer(timeInterval: 1.0 / 60.0, repeats: true) { [weak self] _ in
+        guard let self = self else { return }
+        guard let client = self.currentClient else { return }
+        var rect = NSRect.zero
+        _ = client.attributes(forCharacterIndex: 0, lineHeightRectangle: &rect)
+        let c = ActeCounters.now()
+        let actes = c.key &+ c.mouseDown &+ c.scroll
+        guard rect != self.dernierRectSonde || actes != self.dernierActesSonde else { return }
+        self.dernierRectSonde = rect
+        self.dernierActesSonde = actes
+        Log.write(String(format: "[DEBUG-c7e1] rect x=%.1f y=%.1f w=%.1f h=%.1f actes=%u app=%@",
+                         rect.origin.x, rect.origin.y, rect.width, rect.height, actes,
+                         client.bundleIdentifier() ?? "?"))
+    }
+    sondeTimer = t
+    RunLoop.main.add(t, forMode: .common)
+}

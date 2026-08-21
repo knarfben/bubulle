@@ -1,0 +1,15 @@
+SCREEN frame=(0.0, 0.0, 1728.0, 1117.0) visible=(0.0, 0.0, 1728.0, 1084.0) backing=2.0
+SCREENS ["(0.0, 0.0, 1728.0, 1117.0)@2.0"]
+# écran AppKit (0.00,0.00 1728.00x1117.00)  visible (0.00,0.00 1728.00x1084.00)  scale 2.0
+# source d'origine : com.apple.keylayout.French
+E-inset-0.00	font=13.0	caretCG=(435.20,635.00 0.00x16.00)	hud=(393.00,628.00 84.00x77.00)	caps=(420.50,655.50 29.00x22.00)	dxCenter=-0.20	dxLeft=-14.70	dyTop_caretBottom=4.50	dyTop_caretTop=20.50	dyBottom_caretBottom=26.50
+E-inset-0.13	font=13.0	caretCG=(435.20,635.00 0.00x16.00)	hud=(393.00,628.00 84.00x77.00)	caps=(420.50,655.50 29.00x22.00)	dxCenter=-0.20	dxLeft=-14.70	dyTop_caretBottom=4.50	dyTop_caretTop=20.50	dyBottom_caretBottom=26.50
+E-inset-0.26	font=13.0	caretCG=(435.20,635.00 0.00x16.00)	hud=(393.00,628.00 84.00x77.00)	caps=(420.50,655.50 29.00x22.00)	dxCenter=-0.20	dxLeft=-14.70	dyTop_caretBottom=4.50	dyTop_caretTop=20.50	dyBottom_caretBottom=26.50
+E-inset-0.39	font=13.0	caretCG=(435.20,635.00 0.00x16.00)	hud=(393.00,628.00 84.00x77.00)	caps=(420.50,655.50 29.00x22.00)	dxCenter=-0.20	dxLeft=-14.70	dyTop_caretBottom=4.50	dyTop_caretTop=20.50	dyBottom_caretBottom=26.50
+E-inset-0.52	font=13.0	caretCG=(435.20,635.00 0.00x16.00)	hud=(393.00,628.00 84.00x77.00)	caps=(420.50,655.50 29.00x22.00)	dxCenter=-0.20	dxLeft=-14.70	dyTop_caretBottom=4.50	dyTop_caretTop=20.50	dyBottom_caretBottom=26.50
+E-inset-0.65	font=13.0	caretCG=(435.20,635.00 0.00x16.00)	hud=(393.00,628.00 84.00x77.00)	caps=(420.50,655.50 29.00x22.00)	dxCenter=-0.20	dxLeft=-14.70	dyTop_caretBottom=4.50	dyTop_caretTop=20.50	dyBottom_caretBottom=26.50
+E-inset-0.78	font=13.0	caretCG=(435.20,635.00 0.00x16.00)	hud=(393.00,628.00 84.00x77.00)	caps=(420.50,655.50 29.00x22.00)	dxCenter=-0.20	dxLeft=-14.70	dyTop_caretBottom=4.50	dyTop_caretTop=20.50	dyBottom_caretBottom=26.50
+E-inset-0.91	font=13.0	caretCG=(435.20,635.00 0.00x16.00)	hud=(393.00,628.00 84.00x77.00)	caps=(420.50,655.50 29.00x22.00)	dxCenter=-0.20	dxLeft=-14.70	dyTop_caretBottom=4.50	dyTop_caretTop=20.50	dyBottom_caretBottom=26.50
+E-inset-1.04	font=13.0	caretCG=(436.20,636.00 0.00x16.00)	hud=(394.00,629.00 84.00x77.00)	caps=(421.50,656.50 29.00x22.00)	dxCenter=-0.20	dxLeft=-14.70	dyTop_caretBottom=4.50	dyTop_caretTop=20.50	dyBottom_caretBottom=26.50
+E-selection-4	font=13.0	caretCG=(413.00,635.00 45.14x16.00)	hud=(371.00,628.00 84.00x77.00)	caps=(398.50,655.50 29.00x22.00)	capsMid-rectMin=0.00	capsMid-rectMid=-22.57
+# source restaurée : com.apple.keylayout.French
