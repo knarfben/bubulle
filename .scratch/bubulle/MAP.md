@@ -40,6 +40,10 @@ La carte est atteinte quand le binaire tourne sur la machine de Frank et fait ç
   clavier — donc jamais une palette, Bubulle compris.
 - Input sources actives : `com.apple.keylayout.US`, `com.apple.keylayout.French`, `com.apple.inputmethod.SCIM.WBH` (chinois Wubihua), Persian-ISIRI 2901.
 
+## En cours
+
+- [#18 — Le rappel : afficher la langue courante à la demande](tickets/18-le-rappel-a-la-demande.md) — un **objet nouveau**, distinct de la bulle : un grand drapeau translucide flashé au centre de l'écran, appelé par un **double ⌃** — un geste sans caractère, seul type de geste valide quand on ignore justement ce que produit une touche. Motivé par un coût d'erreur qui n'est pas typographique : en croyant être en AZERTY on frappe ⌘Q au lieu de ⌘A. **Le risque de fond est levé** : lire *quel* modificateur est enfoncé ne demande **aucune permission** (trois préflights à `false`, bundle jamais autorisé), coûte **4 ns**, et `flagsState` reste juste **sous secure input**. Au passage, une asymétrie avec le [#04](tickets/04-detecter-la-premiere-frappe.md) : le compteur `flagsChanged`, lui, **décroche** sous secure input (`+0` sur quatre transitions réelles, rattrapage groupé 100 ms plus tard) — ce qui a tué le guet à deux étages prévu et laissé un seul timer permanent à 60 Hz sur l'état. Onze décisions de grilling par ailleurs, dont un repli **divergent du [#13](tickets/13-repli-source-non-mappee.md)** — le code de langue en texte, parce qu'un geste explicite sans réponse se lit comme une panne. Reste : le rendu (prototype), le repli texte, le vocabulaire. Détail : [probes/18-modificateurs](probes/18-modificateurs/NOTES.md).
+
 ## Decisions so far
 
 <!-- une ligne par ticket fermé -->
