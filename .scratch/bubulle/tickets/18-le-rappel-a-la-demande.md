@@ -136,9 +136,9 @@ asymétrie avec le [#04](04-detecter-la-premiere-frappe.md), qui avait établi q
 Conséquence : le compteur ne peut pas servir de signal de réveil. L'état est le seul canal fiable,
 et il est assez bon marché pour être lu en permanence.
 
-**Reste à faire** : le rendu du rappel (registre massif et bref, chiffres au prototype comme au
-[#05](05-clone-visuel-du-hud.md)), le repli texte de la décision 7, et le vocabulaire à poser dans
-[CONTEXT.md](../../CONTEXT.md) à la fermeture.
+**Reste à faire** : le rendu et la tenue en usage réel, sortis dans
+[#19 — Prototype du rappel](19-prototype-du-rappel.md) ; puis le repli texte de la décision 7, et le
+vocabulaire à poser dans [CONTEXT.md](../../CONTEXT.md) à la fermeture.
 
 ## Écarté en route
 
